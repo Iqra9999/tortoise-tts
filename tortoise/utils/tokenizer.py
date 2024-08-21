@@ -5,7 +5,7 @@ import inflect
 import torch
 from tokenizers import Tokenizer
 
-from german_transliterate_core import GermanTransliterate
+from german_transliterate.core import GermanTransliterate
 # Regular expression matching whitespace:
 from unidecode import unidecode
 
