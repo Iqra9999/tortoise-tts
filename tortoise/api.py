@@ -335,7 +335,7 @@ class TextToSpeech:
     def tts(self, text, voice_samples=None, conditioning_latents=None, k=1, verbose=True, use_deterministic_seed=None,
             return_deterministic_state=False,
             # autoregressive generation parameters follow
-            num_autoregressive_samples=512, temperature=.8, length_penalty=1, repetition_penalty=2.0, top_p=.8, max_mel_tokens=500,
+            num_autoregressive_samples=512, temperature=.8, length_penalty=1, repetition_penalty=2.5, top_p=.8, max_mel_tokens=500,
             # CVVP parameters follow
             cvvp_amount=.0,
             # diffusion generation parameters follow
